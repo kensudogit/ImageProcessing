@@ -3,6 +3,7 @@
 import "./globals.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { UsageGuidePanel } from "@/components/UsageGuidePanel";
 
 const NAV = [
   { href: "/", label: "ダッシュボード" },
@@ -40,6 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </aside>
           <main className="main-content">{children}</main>
         </div>
+        <UsageGuidePanel />
       </body>
     </html>
   );
