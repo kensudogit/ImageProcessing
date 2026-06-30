@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+uploads/
+models/detection/*.caffemodel
+models/detection/*.pb
+models/detection/*.weights
+models/ml/
+wheels/
+.pytest_cache/
