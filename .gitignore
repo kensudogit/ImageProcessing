@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+backend/.venv/
+backend/uploads/
+backend/models/detection/*.caffemodel
+backend/models/detection/*.pb
+backend/models/detection/*.weights
+backend/models/ml/
+backend/wheels/
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+
+# Docker
+.DS_Store
+*.lock
